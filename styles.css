@@ -2,12 +2,13 @@
     background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
 }
 body{
-    background-color: orange;
+    background-color: #FF69B4;
 }
 .card-header{
-    background-color: black;
+    background-color: #458BA8;
+    font-weight: bold;
     color: white;
 }
 .container{
-    background-color: aquamarine;
+    background-color: #00FFFF;
 }
