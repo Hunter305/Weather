@@ -20,6 +20,6 @@ async function getCountries(){
 // need to change value kept it for testing
 getCountries()
 function getName(e){
-  fetch(`https://api.openweathermap.org/data/2.5/weather?q=${e.target.value}&appid=f0b263d32cde29f757f407f03b4ff622&units=metric`).then(res=>res.json()).then(data=>alert(`the temprature of it's capital is ${data.main.temp} celcius` ))
+  fetch(`https://api.openweathermap.org/data/2.5/weather?q=${e.target.value}&appid=f0b263d32cde29f757f407f03b4ff622&units=metric`).then(res=>res.json()).then(data=>alert(`The temprature of it's capital is ${data.main.temp} celcius \nThe sky is ${data.weather[0].main} ` ))
   
 }
