@@ -10,7 +10,7 @@ async function getCountries(){
           <h5 class="card-title">capital :${res[i].capital}</h5>
           <h5 class="card-title">region :${res[i].region}</h5>
           <h5 class="card-title">country code :${res[i].alpha3Code}</h5>
-          <button class="btn btn-primary" onclick="getName(event)" value="${res[i].capital}">Click for Weather</button>  
+          <button class="btn btn-outline-secondary" onclick="getName(event)" value="${res[i].capital}">Click for Weather</button>  
         </div>
       </div>
       </div>`
